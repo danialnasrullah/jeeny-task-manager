@@ -199,8 +199,7 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-Built with ❤️ for the Tech Pioneer Program 2025
+Danial Nasrullah
+dvn.ivl2@gmail.com
 
 ---
-
-**Note**: This is a prototype application. For production use, consider implementing additional security measures, comprehensive testing, and proper error handling. 
