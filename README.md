@@ -62,13 +62,6 @@ A modern, intelligent task management application built with React, Node.js, and
    npm install
    ```
 
-4. **Set up environment variables**
-   ```bash
-   # In server directory, create .env file
-   echo "PORT=5000" > .env
-   echo "MONGODB_URI=mongodb://localhost:27017/smart-task-manager" >> .env
-   ```
-
 5. **Start MongoDB**
    - If using local MongoDB: `mongod`
    - If using MongoDB Atlas: Update the connection string in `.env`
