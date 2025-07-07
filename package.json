@@ -1,0 +1,32 @@
+{
+  "name": "smart-task-manager",
+  "version": "1.0.0",
+  "description": "A modern, intelligent task management application",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "test": "cd server && npm test && cd ../client && npm test",
+    "start": "cd server && npm start"
+  },
+  "keywords": [
+    "task-manager",
+    "react",
+    "nodejs",
+    "mongodb",
+    "typescript",
+    "productivity"
+  ],
+  "author": "Tech Pioneer Program 2025",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+} 
